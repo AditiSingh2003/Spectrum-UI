@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import '../../provider/favorite_provider.dart';
 import '../../theme/theme.dart';
 import 'All Pricing Cards/pricing_card/pricing_cards1.dart';

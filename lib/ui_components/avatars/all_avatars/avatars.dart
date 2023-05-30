@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_component_ui/ui_components/avatars/all_avatars/image_avatar/avatar1.dart';
 import 'package:flutter_component_ui/ui_components/avatars/all_avatars/text_avatars/avatar2.dart';
 import 'package:flutter_component_ui/ui_components/avatars/all_avatars/icon_avator/avatar3.dart';
 import 'package:provider/provider.dart';
-
 import '../../../provider/favorite_provider.dart';
 import '../../../theme/theme.dart';
 

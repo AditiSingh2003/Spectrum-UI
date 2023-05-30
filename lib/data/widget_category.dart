@@ -6,6 +6,7 @@ import 'package:flutter_component_ui/ui_components/input_fields/input_fields.dar
 import 'package:flutter_component_ui/ui_components/messages/messages.dart';
 import 'package:flutter_component_ui/ui_components/paginations/paginations.dart';
 import 'package:flutter_component_ui/ui_components/pricing_cards/pricing_cards.dart';
+import 'package:flutter_component_ui/ui_components/label/label.dart';
 import 'package:flutter_component_ui/ui_components/segmented_controls/segmented_control_screen.dart';
 
 import '../ui_components/radios/radios.dart';
@@ -22,7 +23,7 @@ final List<Map<String, dynamic>> widgetCategoryData = [
   },
   {
     'categoryName': 'Labels',
-    'categoryScreen': AvatarScreen(),
+    'categoryScreen': Label(),
   },
   {
     'categoryName': 'Bottom Navigation Bars',
@@ -64,4 +65,5 @@ final List<Map<String, dynamic>> widgetCategoryData = [
     'categoryName': 'Radio',
     'categoryScreen': RadioScreen(),
   },
+
 ];
